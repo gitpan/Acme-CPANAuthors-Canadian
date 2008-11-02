@@ -1,0 +1,22 @@
+---
+name: Acme-CPANAuthors-Canadian
+version: 0.0101
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: We are Canadian CPAN authors
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Acme::CPANAuthors: 0.06
+  Acme::CPANAuthors::Register: 0
+build_requires:
+  Test::More: 0
+provides:
+  Acme::CPANAuthors::Canadian:
+    file: lib/Acme/CPANAuthors/Canadian.pm
+    version: 0.0101
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
