@@ -3,10 +3,11 @@ package Acme::CPANAuthors::Canadian;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use Acme::CPANAuthors::Register (
     ZOFFIX => 'Zoffix Znet',
+    ETHER  => 'Karen Etheridge',
 );
 
 1;
@@ -39,6 +40,13 @@ See documentation for L<Acme::CPANAuthors> for more details.
 
 This class provides a hash of Canadian CPAN authors' PAUSE ID and name to
 the C<Acme::CPANAuthors> module.
+
+=head1 US PEOPLE
+
+We are Canadian CPAN authors:
+
+    Zoffix 'ZOFFIX' Znet
+    Karen 'ETHER' Etheridge
 
 =head1 MAINTENANCE
 
