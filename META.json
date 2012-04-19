@@ -1,0 +1,47 @@
+{
+   "abstract" : "We are Canadian CPAN authors",
+   "author" : [
+      "Zoffix <'zoffix@cpan.org'>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-CPANAuthors-Canadian",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.4"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Acme::CPANAuthors" : "0.06",
+            "Acme::CPANAuthors::Register" : 0
+         }
+      }
+   },
+   "provides" : {
+      "Acme::CPANAuthors::Canadian" : {
+         "file" : "lib/Acme/CPANAuthors/Canadian.pm",
+         "version" : "0.0103"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.0103"
+}

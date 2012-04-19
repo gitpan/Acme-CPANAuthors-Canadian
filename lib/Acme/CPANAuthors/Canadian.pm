@@ -3,11 +3,12 @@ package Acme::CPANAuthors::Canadian;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use Acme::CPANAuthors::Register (
     ZOFFIX => 'Zoffix Znet',
     ETHER  => 'Karen Etheridge',
+    ROMANF => 'Roman F.',
 );
 
 1;
