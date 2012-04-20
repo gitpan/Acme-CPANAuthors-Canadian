@@ -16,10 +16,10 @@ name: Acme-CPANAuthors-Canadian
 provides:
   Acme::CPANAuthors::Canadian:
     file: lib/Acme/CPANAuthors/Canadian.pm
-    version: 0.0103
+    version: 0.0104
 requires:
   Acme::CPANAuthors: 0.06
   Acme::CPANAuthors::Register: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.0103
+version: 0.0104

@@ -34,7 +34,7 @@
    "provides" : {
       "Acme::CPANAuthors::Canadian" : {
          "file" : "lib/Acme/CPANAuthors/Canadian.pm",
-         "version" : "0.0103"
+         "version" : "0.0104"
       }
    },
    "release_status" : "stable",
@@ -43,5 +43,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.0103"
+   "version" : "0.0104"
 }

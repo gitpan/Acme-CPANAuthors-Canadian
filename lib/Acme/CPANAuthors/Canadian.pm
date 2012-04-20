@@ -3,12 +3,19 @@ package Acme::CPANAuthors::Canadian;
 use warnings;
 use strict;
 
-our $VERSION = '0.0103';
+our $VERSION = '0.0104';
 
 use Acme::CPANAuthors::Register (
     ZOFFIX => 'Zoffix Znet',
     ETHER  => 'Karen Etheridge',
     ROMANF => 'Roman F.',
+	GTERMARS    => 'Graham TerMarsch',
+
+    # the following four authors have been submitted by GTERMARS
+    STASH   => 'Jeremy Stashewsky',
+    LUKEC   => 'Luke Closs',
+    KEVINJ  => 'Kevin Jones',
+    MDMS    => 'Mike Smith',
 );
 
 1;
