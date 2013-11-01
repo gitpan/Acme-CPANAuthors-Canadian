@@ -3,13 +3,13 @@ package Acme::CPANAuthors::Canadian;
 use warnings;
 use strict;
 
-our $VERSION = '0.0104';
+our $VERSION = '0.0105';
 
 use Acme::CPANAuthors::Register (
     ZOFFIX => 'Zoffix Znet',
     ETHER  => 'Karen Etheridge',
     ROMANF => 'Roman F.',
-	GTERMARS    => 'Graham TerMarsch',
+    GTERMARS    => 'Graham TerMarsch',
 
     # the following four authors have been submitted by GTERMARS
     STASH   => 'Jeremy Stashewsky',
@@ -21,7 +21,7 @@ use Acme::CPANAuthors::Register (
 1;
 __END__
 
-=encoding UTF-8
+=encoding utf8
 
 =head1 NAME
 
@@ -53,8 +53,14 @@ the C<Acme::CPANAuthors> module.
 
 We are Canadian CPAN authors:
 
-    Zoffix 'ZOFFIX' Znet
+    Graham 'GTERMARS' TerMarsch
+    Jeremy 'STASH' Stashewsky
     Karen 'ETHER' Etheridge
+    Kevin 'KEVINJ' Jones
+    Luke 'LUKEC' Closs
+    Mike 'MDMS' Smith
+    Roman 'ROMANF' F.
+    Zoffix 'ZOFFIX' Znet
 
 =head1 MAINTENANCE
 

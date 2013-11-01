@@ -4,7 +4,7 @@
       "Zoffix <'zoffix@cpan.org'>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -16,25 +16,26 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.4"
+            "Module::Build" : "0"
          }
       },
       "runtime" : {
          "requires" : {
             "Acme::CPANAuthors" : "0.06",
-            "Acme::CPANAuthors::Register" : 0
+            "Acme::CPANAuthors::Register" : "0",
+            "perl" : "5.006"
          }
       }
    },
    "provides" : {
       "Acme::CPANAuthors::Canadian" : {
          "file" : "lib/Acme/CPANAuthors/Canadian.pm",
-         "version" : "0.0104"
+         "version" : "0.0105"
       }
    },
    "release_status" : "stable",
@@ -43,5 +44,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.0104"
+   "version" : "0.0105"
 }

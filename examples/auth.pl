@@ -3,6 +3,17 @@
 use strict;
 use warnings;
 
+# my %auth = (
+# 
+# );
+# 
+# 
+# for ( sort { $auth{$a} cmp $auth{$b} } keys %auth ) {
+#     my ( $f, $l ) = split /\s/, $auth{$_};
+#     print "$f '$_' $l\n";
+# }
+
+
 use lib qw(lib ../lib);
 use Acme::CPANAuthors;
 
